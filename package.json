@@ -1,0 +1,33 @@
+{
+  "name": "nsolid-command-gc",
+  "version": "1.0.0",
+  "description": "an N|Solid custom command to request a garbage collection",
+  "main": "nsolid-command-gc",
+  "license": "MIT",
+  "author": "NodeSource <npm@nodesource.com> (https://nodesource.com)",
+  "contributors": [
+    "Patrick Mueller <pmuellr@nodesource.com> (https://github.com/pmuellr)"
+  ],
+  "keywords": [
+    "N|Solid",
+    "nsolid",
+    "gc",
+    "garbage collection"
+  ],
+  "scripts": {
+    "utest": "test/test.sh",
+    "test": "npm run -s standard && npm run -s utest",
+    "standard": "echo 'running standard' && standard"
+  },
+  "devDependencies": {
+    "standard": "~8.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodesource/nsolid-command-gc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodesource/nsolid-command-gc/issues"
+  },
+  "homepage": "https://github.com/nodesource/nsolid-command-gc"
+}
